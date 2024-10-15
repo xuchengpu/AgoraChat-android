@@ -130,9 +130,10 @@ dependencies {
     implementation 'com.github.bumptech.glide:glide:4.13.0'
     annotationProcessor 'com.github.bumptech.glide:compiler:4.13.0'
     // fresh and load more
-    implementation  'com.scwang.smart:refresh-layout-kernel:2.0.3'
-    implementation  'com.scwang.smart:refresh-header-material:2.0.3'
-    implementation  'com.scwang.smart:refresh-header-classics:2.0.3'
+    implementation  'io.github.scwang90:refresh-layout-kernel:2.1.0'      //核心必须依赖
+    implementation  'io.github.scwang90:refresh-header-material:2.1.0'    //谷歌刷新头
+    implementation  'io.github.scwang90:refresh-header-classics:2.1.0'    //经典刷新头
+
     // Use EncryptedSharedPreferences
     implementation "androidx.security:security-crypto:1.0.0"
 
